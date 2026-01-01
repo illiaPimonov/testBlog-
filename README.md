@@ -1,4 +1,18 @@
-Create a README.md file in the root of your repo if you don't have one already. (You should be tracking your changes with Git.)
-Explain to the user what they'll need to run the CLI.
-Explain to the user how to set up the config file and run the program. Tell them about a few of the commands they can run.
-Push gator up to GitHub, then submit the link to your remote repo. Your link should look something like this: https://github.com/github-username/repo-name.
+# Gator (RSS Aggregator CLI)
+
+Gator is a small command-line RSS aggregator. You can register users, add RSS feeds, follow/unfollow feeds, scrape feeds for new posts, and browse the latest posts from feeds you follow.
+
+## Requirements
+
+- **Node.js** (recommended: latest LTS)
+- **npm**
+- **PostgreSQL** (local or remote)
+
+## Install
+
+Clone the repo and install dependencies:
+
+```bash
+git clone <your-repo-url>
+cd <repo-folder>
+npm install
